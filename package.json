@@ -1,5 +1,5 @@
 {
-    "name": "bishop-weather",
+    "name": "bishop-noaaday1",
     "version": "1.0.0",
     "description": "Post the NOAA NWS Day One prediction each morning on the Bishop Discord bot",
     "author": "Alex Riley",
