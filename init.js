@@ -3,7 +3,7 @@ module.exports = function() {
 
 	module.name = 'Bishop NOAA Day 1';
 	module.description = 'Post the NOAA NWS Day One prediction each morning on the Bishop Discord bot';
-	module.version = '1.0.1';
+	module.version = '1.1.0';
 	module.enabled = true;
 
 	module.init = function init() {
