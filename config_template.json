@@ -1,3 +1,7 @@
 {
-    "weatherChannelId": ""
+    "isModuleEnabled": true,
+    "weatherChannelId": "",
+    "commands": {
+        "noaaoutlook.js": true
+    }
 }
