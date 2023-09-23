@@ -5,7 +5,7 @@ module.exports = function() {
 
 	module.name = 'Bishop NOAA Day 1';
 	module.description = 'Post the NOAA NWS Day One prediction each morning on the Bishop Discord bot';
-	module.version = '1.2.0';
+	module.version = '1.3.0';
 	module.enabled = isModuleEnabled;
 
 	module.init = function init() {

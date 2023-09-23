@@ -1,12 +1,13 @@
 const CronJob = require('cron').CronJob;
 const pullNoaa = require(__dirname + '/../helpers/pullNoaaImage');
-
+const { getParentDirectoryString } = require('@helpers/utils');
+const { jobs } = require('../config.json');
 
 module.exports = function(client) {
 
     const job = {};
 
-	job.enabled = true;
+	job.enabled = jobs[getParentDirectoryString(__filename, __dirname, 'jobs')];
 
 	job.executeJob = function() {
 		new CronJob(

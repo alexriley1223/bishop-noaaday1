@@ -3,5 +3,8 @@
     "weatherChannelId": "",
     "commands": {
         "noaaoutlook.js": true
+    },
+    "jobs": {
+        "showDayOneWeather.js": true
     }
 }
