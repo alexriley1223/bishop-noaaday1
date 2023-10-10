@@ -1,11 +1,12 @@
 const { isModuleEnabled } = require('./config.json');
+const package = require('./package.json');
 
 module.exports = function() {
 	const module = {};
 
 	module.name = 'Bishop NOAA Day 1';
-	module.description = 'Post the NOAA NWS Day One prediction each morning on the Bishop Discord bot';
-	module.version = '1.3.0';
+	module.description = package.description;
+	module.version = package.version;
 	module.enabled = isModuleEnabled;
 
 	module.init = function init() {
