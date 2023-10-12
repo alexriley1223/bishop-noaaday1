@@ -7,6 +7,6 @@ module.exports = {
 	enabled: commands[getParentDirectoryString(__filename, __dirname)],
 	data: new SlashCommandBuilder().setName('noaaoutlook').setDescription('Show current NOAA NWS Day 1 Outlook'),
 	async execute(interaction) {
-        pullNoaa(interaction);
+		pullNoaa(interaction);
 	},
 };
