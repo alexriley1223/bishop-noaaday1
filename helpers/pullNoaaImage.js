@@ -42,8 +42,8 @@ module.exports = async function(interaction = null, client = null) {
 					});
 				}
 			})
-			.catch(error => {
-				log.error('noaaday1', '❌ Error fetching Noaa Image.');
+			.catch(() => {
+				log.error('NOAA', 'Error fetching Noaa Image.');
 				if (interaction) {
 					interaction.reply({
 						content: 'Error fetching gif.',
@@ -53,7 +53,7 @@ module.exports = async function(interaction = null, client = null) {
 			});
 	}
 	else if (interaction) {
-		log.error('noaaday1', '❌ Error fetching Noaa Image.');
+		log.error('NOAA', 'Error fetching Noaa Image.');
 		interaction.reply({
 			content: 'Error fetching gif.',
 			ephemeral: true,
