@@ -1,6 +1,6 @@
 {
     "name": "bishop-noaaday1",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Post the NOAA NWS Day One prediction each morning on the Bishop Discord bot",
     "author": "Alex Riley",
     "license": "GNU GENERAL PUBLIC LICENSE",

@@ -16,5 +16,5 @@ module.exports = new BishopJob({
 			null,
 			true,
 			'America/Indianapolis');
-	}
+	},
 });
